@@ -1,0 +1,24 @@
+
+.left-side {
+  flex:2;
+}
+
+.left-side img{
+  width: 100%;
+}
+.right-side {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(87, 87, 87);
+}
+
+.right-side span {
+  font-weight: 600;
+}
+
+.right-side img {
+  width: 75px;
+}

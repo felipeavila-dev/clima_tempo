@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(11, 120, 216);
+  justify-content: space-between;
+}
+.header .header-logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-logo img{
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+.header .header-logo p{
+  font-size: 20px;
+  margin: 0 15px;
+  color: rgb(6, 86, 156);
+  font-weight: bolder;
+
+}
+.header .header-logo p span{
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  margin-right: 2px;
+}
+.header .header-search {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.header .header-search input {
+  width: 80%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background-color: rgb(134, 173, 207);
+  color: white;
+}
+.header .header-search input::placeholder {
+  color: rgb(11, 120, 216);
+}
+.header .header-social-media {
+  flex: 1;
+  text-align: end;
+}
