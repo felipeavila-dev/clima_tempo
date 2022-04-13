@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './style.css';
 import LogoIcon from '../../icons/logo.svg';
+import { BsFillBookmarkFill } from "react-icons/bs";
 
 import { getData } from '../../helpers/GetInformations';
 

@@ -2,7 +2,25 @@ footer {
   display: flex;
   width: 100vw;
   justify-content: center;
-  position: fixed;
+  align-items: center;
+  position: absolute;
   bottom: 0;
   color: rgb(87, 87, 87);
+  padding: 15px 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer .icon{
+  margin: 0 10px;
+  font-size: 18px;
+  color: rgb(80, 79, 79);
+  text-decoration: none;
+}
+
+footer .icon:hover{
+  cursor: pointer;
 }
