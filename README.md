@@ -3,7 +3,7 @@ Projeto desenvolvido para consultar o clima de cidades ao redor do mundo. Foi ut
 
 - Para utilizar a ferramenta, basta digitar o nome da cidade ou país desejada(o) e apertar `Enter` que a pesquisa será feita.
 
-# Desenvolvido utilizando:
+# Tecnologias utilizadas:
 
 💠 <b>React Js</b>: Uma biblioteca JavaScript para criar interfaces de usuário . \
 
